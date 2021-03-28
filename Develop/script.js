@@ -77,11 +77,11 @@ function loadEntry () {
 function trackTime () {
     var now = moment().hour();
     $(".row").each(function () {
-        var blockTime = parseInt($(this).attr("id"));
-        if (blockTime === now) {
-            $(this).addClass("present");
-        }else if (blockTime < now) {
+        var blockTime = parseInt($(this).attr("id").split("hour-")[1]);
+        if (blockTime < now) {
             $(this).addClass("past");
+        }else if (blockTime === now) {
+            $(this).addClass("present");
         }else {
             $(this).addClass("future");
         }
