@@ -10,20 +10,18 @@ This section provides detailed description on how to use the Work Day Calendar S
 
 The user enters events accoording to the time  required into the daily planner and clicks the save button under each time period. The event is saved successfully so that any given period when the user re-opens or refreshes the daily planner, they can see the timeblocks as well as the respective events allocated to those times.  
 
+Also, when the user opens the woork scheduler, the current day/date is displayed at the top of the calendar.
 
-When the user has successfully selected and defined  their criterias, the password will be randomly calculated and displayed.
 
 ## Links to deployed application
-* URL of deployed application: https://e-giftz.github.io/Password-Generator-Application/
+* URL of deployed application: https://e-giftz.github.io/work-day-scheduler/
 
-* URL of GitHub repository containing the code: https://github.com/e-giftz/Password-Generator-Application
+* URL of GitHub repository containing the code: https://github.com/e-giftz/work-day-scheduler
 
 ## Screenshots of Web App
 
-![Password Generator App ](images/PasswordGeneratorApp.png)
+![Work Scheduler App ](images/WorkScheduler.png)
 
-![Password Generator App Output ](images/PasswordAppOutput.png)
+## Work Scheduler App Demo
 
-## Password Generator App Demo
-
-![Password Generator App Demo ](images/PasswordAppDemo.gif)
+![Work Scheduler App Demo ](images/WorkdayDemo.gif)
